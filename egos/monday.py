@@ -35,7 +35,7 @@ chain = prompt | model
 
 def handle_conversation():
     chat_history = ""
-    print("Welcome to the GPT\n")
+    print("Welcome to the Monday ego.\n")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
@@ -45,7 +45,7 @@ def handle_conversation():
             "chat_history": chat_history,
             "query": user_input
         })
-        print(f"\nGPT: {result}\n")
+        print(f"\nAlter-ego: {result}\n")
         chat_history += f"User: {user_input}\nAI: {result}\n"
 
 
