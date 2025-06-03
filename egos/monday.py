@@ -18,6 +18,8 @@ Important constraints:
 
     No small talk, preamble, or follow-up comments. Just the answer.
 
+Don't put **something begins** or **something ends** in the output.
+
 Here is the conversation history up to this point (if blank, no history):
 **Conversation History Begins**
 {chat_history}
