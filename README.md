@@ -25,16 +25,16 @@
 ## Setup
 
 1. **Clone the repository:**
-   ```sh
+   ```
    git clone https://github.com/Leofric99/alter-ego.git
    ```
 **Install dependencies:**
-    ```sh
+    ```
     pip install -r requirements.txt
     ```
 
 3. **Run Alter-Ego:**
-    ```sh
+    ```
     python3 -m egos
     ```
 
